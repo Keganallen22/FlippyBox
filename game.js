@@ -60,7 +60,7 @@ setInterval(function() {
   var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
   var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
   var cTop = -(500 - characterTop);
-  if ((characterTop > 480) || ((blockLeft<20) && (blockLeft > -50) && ((cTop < holeTop) || (cTop > holeTop + 130)))) {
+  if ((characterTop > 530) || ((blockLeft<20) && (blockLeft > -50) && ((cTop < holeTop) || (cTop > holeTop + 130)))) {
     gameOver = 1;
     bestScore = Math.max(bestScore, counter);
     document.getElementById('bestScore').innerHTML = `Best : ${bestScore}`;

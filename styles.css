@@ -8,7 +8,7 @@
 #game{
   background-color: white;
   width: 400px;
-  height: 500px;
+  height: 550px;
   border: 1px solid black;
   margin: auto;
   overflow: hidden;
@@ -101,11 +101,11 @@
 /* Background Scrolling */
 #backgroundMood{
   background: url(Mood.png) repeat-x;
-  height: 500px;
-  width: 150%;
+  height: 550px;
+  width: 160%;
   z-index: 0;
   position: relative;
-  top: -1664px;
+  top: -1650px;
   background-size: 50%;
 	animation: scroll-anim 3s linear infinite;
 }
@@ -116,7 +116,7 @@
 }
 /* Header */
 .header{
-  padding: 1rem 0;
+  padding-top: 3rem;
   margin: auto;
   width: 400px;
   position: relative;
@@ -142,7 +142,8 @@
   margin: auto;
   border-bottom: 4px solid #9DF1DF;
   color: white;
-  height: 16px;
+  height: 60px;
+  align-items: end;
 }
 #gameOver{
   font-size: 1.5rem;
