@@ -20,6 +20,7 @@ head{
   overflow: hidden;
   position: relative;
   user-select: none;
+  -webkit-user-select: none;
 }
 /* #blockImg {
   transform: rotate(135deg);
@@ -90,6 +91,8 @@ head{
   top: -350px;
   /* animation: block 2s infinite linear; */
   opacity: 0%;
+  user-select: none;
+  -webkit-user-select: none;
 }
 #character{
   position: absolute;
@@ -120,6 +123,7 @@ head{
   top: -1650px;
   background-size: 50%;
 	animation: scroll-anim 3s linear infinite;
+  user-select: none;
 }
 @keyframes scroll-anim {
   100% {
