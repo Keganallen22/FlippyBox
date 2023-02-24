@@ -18,8 +18,8 @@ head{
   border: 1px solid black;
   margin: auto;
   overflow: hidden;
-  position: relative
-
+  position: relative;
+  user-select: none;
 }
 /* #blockImg {
   transform: rotate(135deg);
