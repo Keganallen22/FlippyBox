@@ -6,10 +6,10 @@
   font-family: 'Press Start 2P', cursive;
 }
 head{
-  background-color: black;
+  background-color: #0b162c;
 }
 #body{
-  background-color: black;
+  background-color: #0b162c;
 }
 #game{
   background-color: white;
@@ -20,7 +20,7 @@ head{
   overflow: hidden;
   position: relative;
   user-select: none;
-  -webkit-user-select: none;
+
 }
 /* #blockImg {
   transform: rotate(135deg);
@@ -124,6 +124,7 @@ head{
   background-size: 50%;
 	animation: scroll-anim 3s linear infinite;
   user-select: none;
+  -webkit-user-select: none;
 }
 @keyframes scroll-anim {
   100% {
